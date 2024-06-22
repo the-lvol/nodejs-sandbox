@@ -14,7 +14,10 @@
 			"aaron-bond.better-comments",
 			"alefragnani.bookmarks",
 			"ms-vscode-remote.remote-containers",
-			"yzhang.markdown-all-in-one"
+			"yzhang.markdown-all-in-one",
+			"codeium.codeium",
+			"ms-vscode.vscode-typescript-next",
+			"ms-vscode.js-debug-nightly"
 		]
 	}
 }

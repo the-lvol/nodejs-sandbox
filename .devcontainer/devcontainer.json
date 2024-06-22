@@ -1,15 +1,20 @@
 {
-	"name": "template",
-	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
+	"name": "nodejs-sandbox",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"github.copilot-chat",
 				"github.copilot",
 				"github.vscode-pull-request-github",
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"ms-vscode.vscode-typescript-next",
+				"ms-vscode.js-debug-nightly"
 			]
 		}
 	},
-	"postCreateCommand": "bash .devcontainer/setup.sh"
+	"postCreateCommand": "bash .devcontainer/setup.sh",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
+	}
 }
